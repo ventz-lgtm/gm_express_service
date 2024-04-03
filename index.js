@@ -170,7 +170,7 @@ async function writeRequest(c) {
   return c.json({id: id})
 }
 
-app.get("/", async () => Response.redirect("https://github.com/CFC-Servers/gm_express", 302));
+app.get("/", async () => Response.redirect("https://donate.civilservers.net", 302));
 
 // V1 Routes
 app.get("/v1/register", registerRequest)
